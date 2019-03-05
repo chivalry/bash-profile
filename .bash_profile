@@ -13,6 +13,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/opt/python/libexec/bin:$PATH
 export PATH=.:$PATH
 
+alias ls="ls -l"
 alias ll="ls -golAFh"
 alias lll="ls -lAF"
 alias ..="cd .."
