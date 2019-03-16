@@ -18,6 +18,8 @@ alias ll="ls -golAFh"
 alias lll="ls -lAF"
 alias ..="cd .."
 
+alias venv="python -m venv venv"
+
 alias activate="source venv/bin/activate"
 
 # The following is only applicable to macOS.
