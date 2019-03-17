@@ -18,9 +18,8 @@ alias ll="ls -golAFh"
 alias lll="ls -lAF"
 alias ..="cd .."
 
-alias venv="python -m venv venv"
-
 alias activate="source venv/bin/activate"
+alias venv="python -m venv venv; activate"
 
 # The following is only applicable to macOS.
 if [[ $(uname) == Darwin ]]
