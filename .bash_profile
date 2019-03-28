@@ -19,7 +19,9 @@ alias lll="ls -lAF"
 alias ..="cd .."
 
 alias activate="source venv/bin/activate"
-alias venv="python -m venv venv; activate"
+alias venv="python -m venv venv; activate; pip install --upgrade pip; \
+    pip install -r requirements.txt"
+alias freeze="pip freeze > requirements.txt"
 
 # The following is only applicable to macOS.
 if [[ $(uname) == Darwin ]]
