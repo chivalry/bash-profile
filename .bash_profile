@@ -22,6 +22,7 @@ alias activate="source venv/bin/activate"
 alias venv="python -m venv venv; activate; pip install --upgrade pip; \
     pip install -r requirements.txt"
 alias freeze="pip freeze > requirements.txt"
+alias unittest="python -W ignore::DeprecationWarning -m unittest"
 
 # The following is only applicable to macOS.
 if [[ $(uname) == Darwin ]]
