@@ -8,6 +8,7 @@ export LSCOLORS=exfxcxdxbxegedabagacad;
 
 export PYTHONSTARTUP=~/.pythonstartup
 
+export PATH=/Users/chuck/Library/Python/3.7/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/opt/python/libexec/bin:$PATH
