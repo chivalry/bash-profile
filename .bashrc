@@ -1,7 +1,7 @@
 # Place a return before each prompt and display the current working directory
 PS1="\n\[\e[34m\]\W\[\e[m\] \$ "
 
-export EDITOR='vim'
+export EDITOR='mvim'
 
 export CLICOLOR=1;
 export LSCOLORS=exfxcxdxbxegedabagacad;
@@ -22,7 +22,10 @@ alias ..="cd .."
 alias activate="source venv/bin/activate"
 alias venv="python -m venv venv; activate; pip install -r requirements.txt"
 alias freeze="pip freeze > requirements.txt"
-alias unittest="python -W ignore::DeprecationWarning -m unittest"
+
+alias fr='pipenv run flask run'
+alias hr='heroku local -f Procfile.dev'
+alias pips='pipenv shell'
 
 # The following is only applicable to macOS.
 if [[ $(uname) == Darwin ]]
